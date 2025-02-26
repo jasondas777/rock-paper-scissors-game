@@ -18,7 +18,7 @@ def determine_winner(user, computer):
          (user == "scissors" and computer == "paper"):
         return "You win! 🎉"
     else:
-        return "Computer wins! 😢"
+        return "Computer wins!"
 
 def play():
     wins, losses, draws = 0, 0, 0
